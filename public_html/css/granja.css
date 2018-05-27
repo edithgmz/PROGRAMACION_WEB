@@ -1,0 +1,12 @@
+/*
+Hoja de estilos para la página granja.html
+*/
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+table, tr, td{
+    border: 2px solid blue;
+}

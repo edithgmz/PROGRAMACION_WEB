@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+Instituto Tecnológico de Chihuahua II
+Carrera: Ingeniería en Sistemas Computacionales
+Materia: Programación Web
+
+Aluma: Priscila Edith Gómez Rascón
+Número de Control: 15551384
+-->
+<html lang="es">
+    <head>
+        <title>AJAX Base de Datos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+        <script src="ajaxbd.js"></script>
+    </head>
+    <body>
+        <h2>AJAX Base de Datos</h2>
+        <p>
+            Se muestra como se accede a la información de una base de datos con AJAX.
+        </p>
+        <hr>
+        <form>
+            <select name="usuarios" onchange="mostrarPersona(this.value)">
+                <option value="">Selecciona una persona...</option>
+                <option value="1">Samuel Brown</option>
+                <option value="2">Alfredo Davis</option>
+                <option value="3">William Lowell</option>
+                <option value="4">Frank Byrne</option>
+                <option value="5">Akemi Aoyama</option>
+                <option value="6">Dai Yoshimura</option>
+                <option value="7">Isabelle Smith</option>
+                <option value="8">Andrea White</option>
+            </select>
+            <br><br>
+            <div id="txtPista">
+                <b>La información de la persona se mostrará aquí...</b>
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Saludo con JS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../js/saludo.js"></script>
+    </head>
+    <body>
+        <h2>Saludo con JavaScript</h2>
+        <hr>
+        Escribe tu nombre:
+        <input type="text" id="txtNombre"> <!-- Es necesario tener id en cada elemento para accederlo desde js -->
+        <br><br>
+        <section id="mensaje">
+            Mensaje...
+        </section>
+        <br><br>
+        <button id="btnMensaje">
+            Mostrar saludo
+        </button>
+        <br><br>
+        <button onclick="saludar2();"> <!-- Forma no recomendada de manejar eventos -->
+            Mostrar saludo 2
+        </button>
+    </body>
+</html>

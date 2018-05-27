@@ -1,0 +1,34 @@
+/* Hoja de estilos para introduccion.html */
+
+/* Con el * se agregan especificaciones a todos los elementos, excepto a las reglas de estilo ya especificadas */
+*{
+    background-color: lavenderblush;
+}
+
+/* El nombre de la etiqueta es el selector más básico, selecciona por elemento */
+h2{
+    color: aqua;
+    background-color: azure;
+    font-family: sans-serif, serif;
+    font-style: italic;
+    font-size: 30px;
+}
+
+p{
+    font-size: 15px;
+}
+
+/* Se utiliza el punto (selector) para acceder al atributo class de los elementos y así poder especificar estilos */
+.parrafo_a{
+    color: burlywood;
+}
+
+.parrafo_b{
+    color: chartreuse;
+}
+
+/* Se utiliza # (selector) para acceder al atributo id de los elementos y así poder ser más específicos con los estilos */
+#parrafo_5{
+    color: darkgreen;
+    border: 1px solid; /* Se indica el ancho y tipo de borde (solido) */
+}

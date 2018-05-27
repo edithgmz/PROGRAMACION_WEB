@@ -1,0 +1,129 @@
+/*
+Instituto Tecnológico de Chihuahua II
+Carrera: Ingeniería en Sistemas Computacionales
+Materia: Programación Web
+
+Aluma: Priscila Edith Gómez Rascón
+Número de Control: 15551384
+
+Hoja de estilos para la página: saga.html
+*/
+
+body{
+    background-color: floralwhite;
+    font-family: tahoma;
+    padding: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ol{
+    list-style-type: none;
+    margin: 5;
+    padding: 0;
+    overflow: hidden;
+    background-color: bisque;
+    font-weight: bold;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: darkslategray;
+    text-align: justify;
+    padding: 11px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: burlywood;
+}
+
+a:link{
+    color: midnightblue;
+    text-decoration: none;
+}
+
+a:visited{
+    color: darkgreen;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkmagenta;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active{
+    color: darkslateblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+span{
+    font-style: italic;
+    padding: 5px;
+}
+
+h1{
+    margin: 0px;
+    padding: 5px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+div{
+    font-style: normal;
+}
+
+div div div{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+img{
+    margin-bottom: 20px;
+}
+
+iframe{
+    height: 500px;
+    width: 100%;
+}
+
+.portada{
+    border: 5px solid darkslategray;
+}
+
+.portada1{
+    border: 5px solid darkslateblue;
+}
+
+.tabla{
+    border: 0px;
+}
+
+.cajon{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.cajon2{
+    float: start;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}

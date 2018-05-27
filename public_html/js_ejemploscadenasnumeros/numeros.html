@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+Instituto Tecnológico de Chihuahua II
+Carrera: Ingeniería en Sistemas Computacionales
+Materia: Programación Web
+
+Aluma: Priscila Edith Gómez Rascón
+Número de Control: 15551384
+
+Página donde se muestran todos los ejercicios con números
+creados en el documento numeros.js
+-->
+<html lang="es">
+    <head>
+        <title>JS Números</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="numeros.js"></script>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <h2>JavaScript Números</h2>
+        <hr>
+        <div>
+            <b>Los números pueden escribirse con o sin decimales:</b>
+            <br>
+            <p id="pDecimal">
+                <b>Con decimales:</b>
+            </p>
+            <p id="pNoDecimal">
+                <b>Sin decimales:</b>
+            </p>
+        </div>
+        <br>
+        <div>
+            <b>Números muy grandes o muy pequeños pueden ser escritos con notación científica:</b>
+            <br>
+            <p id="pExLarge">
+                <b>Muy grande:</b>
+            </p>
+            <p id="pExSmall">
+                <b>Muy pequeño:</b>
+            </p>
+        </div>
+        <br>
+        <div>
+            <b>Los enteros (números sin notación de periodo o exponente) tienen una presición de hasta 15 dígitos:</b>
+            <br>
+            <p id="pNumI">
+                <b>Primer número:</b>
+            </p>
+            <p id="pNumII">
+                <b>Segundo número:</b>
+            </p>
+        </div>
+        <br>
+        <div>
+            <b>La aritmética de punto flotante no es 100% precisa siempre:</b>
+            <br>
+            <p id="pFloatNumI">
+                <b>Operación 1:</b>
+            </p>
+            <br>
+            <b>Pero ayuda multiplicar y dividir por 10:</b>
+            <br>
+            <p id="pFloatNumII">
+                <b>Operación 2:</b>
+            </p>
+        </div>
+        <br>
+        <div>
+            <b>Constantes numéricas, precedidas por 0x, son interpretadas como hexadecimales:</b>
+            <br>
+            <p id="pHex">
+                <b>Hexadecimal a decimal:</b>
+            </p>
+        </div>
+        <br>
+        <div>
+            <b>Un número dividido por una cadena no-numérica se transforma en un NaN (Not a Number):</b>
+            <br>
+            <p id="pNAN">
+                <b>Número dividido por una cadena:</b>
+            </p>
+        </div>
+        <br>
+        <div>
+            <b>Si se calcula un número fuera del mayor número posible se obtendrá infinito (Infinity):</b>
+            <br>
+            <p id="pInfinito">
+                <b>Números:</b>
+                <br>
+            </p>
+        </div>
+        <br>
+        <div>
+            <b>El método toString() puede imprimir números como base 16 (hexadecimal), base 8 (octal) o base 2 (binario):</b>
+            <br>
+            <p id="pSistNum">
+                <b>Número en diferentes bases:</b>
+                <br>
+            </p>
+        </div>
+        <br>
+    </body>
+</html>

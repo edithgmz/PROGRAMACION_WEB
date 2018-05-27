@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>Registro</h2>
+        <hr>
+        <p>Proporcionar los datos para ser registrado en el sitio y poder ser registrado en el sitio y poder acceder a
+        información importante</p>
+        <!-- Para realizar formularios, tiene dos atributos obligatorios: el método y la acción (va a un recurso del servidor).
+        Métodos:
+        post: no se puede comprobar si se capturaron los datos
+        get: muestra los datos capturados en la url-->
+        <form method="get" action="registro.php">
+            Nombre *:
+            <!--Entrada de datos con tipo, nombre, id (se recomienda que sea igual al nombre),
+            e indicar si es obligatorio (required) o no -->
+            <input type="text" name="nombre" id="nombre" required>
+            <br><br>
+            Apellidos *:
+            <input type="text" name="apellidos" id="apellidos" required>
+            <br><br>
+            Género:
+            <!-- El elemento radio no lleva ningún texto asociado, para agrupar varios elementos se tiene que poner el mismo
+            nombre pero el id debe ser exclusivo. Para que en los datos enviados pueda visualizarse la opción seleccionada se
+            tiene que indicar dicho valor con el atributo value-->
+            <input type="radio" name="genero" id="hombre" value="hombre"> Hombre
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <!-- checked para seleccionar una opción de forma predeterminada
+                    selected se utiliza cuando se tienen varias opciones, en este caso no es necesario -->
+            <input type="radio" name="genero" id="mujer" value="mujer" checked> Mujer
+            <br><br>
+            Fecha nacimiento:
+            <input type="date" name="fechanac" id="fechanac">
+            <br><br>
+            Color preferido:
+            <input type="color" name="color" id="color">
+            <br><br>
+            ¿Cuántas mascotas tienes?
+            <!-- Number solo acepta valores enteros, se le puede agregar valores mínimos y máximos -->
+            <input type="number" name="mascotas" id="mascotas" min="0" max="500">
+            <br><br>
+            <!-- Se agrega un botón para enviar los datos -->
+            <input type="submit" value="   Enviar   ">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Los datos locales son útiles porque aunque se cierre la sesión los datos se mantienen
+-->
+<html lang="es">
+    <head>
+        <title>Almacenamiento local</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../js/almacenamientolocal.js"></script>
+    </head>
+    <body>
+        <h2>Almacenamiento local</h2>
+        <hr>
+        <p>
+            Se crean y almacenan datos locales, se permite al usuario definir el nombre y valor de los datos guardados.
+        </p>
+        Escribir nombre de dato (variable):
+        <input type="text" id="nombrevar" size="20">
+        <br><br>
+        Escribir valor:
+        <input type="text" id="valorvar" size="20">
+        <br><br>
+        <button id="btnGuardar">
+            Guardar
+        </button>
+        <br><br>
+        <section id="cajaDatos">
+            Aún sin datos
+        </section>
+        <br>
+        <a href="recuperarlocal.html">
+            Recuperar y mostrar datos locales
+        </a>
+    </body>
+</html>

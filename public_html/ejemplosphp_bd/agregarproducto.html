@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Agregar Producto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>Agregar Producto</h2>
+        <p>
+            Proporcionar los datos para agregar un nuevo producto en la base de datos.
+        </p>
+        <form method="post" action="agregarproducto.php">
+            Id producto *:
+            <input type="number" min="1" max="2000" name="idproducto" id="idproducto" required>
+            <br>
+            Nombre producto:
+            <input type="text" size="20" name="nomproducto" id="nomproducto">
+            <br>
+            Precio producto:
+            <input type="text" size="10" name="precio" id="precio">
+            <br>
+            Nombre imagen y extensión:
+            <input type="text" size="15" name="imagen" id="imagen">
+            <br>
+            Id categoría (entero): <!-- TODO: Completar con AJAX -->
+            <input type="number" min="1" max="3" name="idcategoria" id="idcategoria">
+            <br><br>
+            <input type="submit" value="    Agregar    ">
+        </form>
+    </body>
+</html>

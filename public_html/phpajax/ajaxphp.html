@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+Instituto Tecnológico de Chihuahua II
+Carrera: Ingeniería en Sistemas Computacionales
+Materia: Programación Web
+
+Aluma: Priscila Edith Gómez Rascón
+Número de Control: 15551384
+-->
+<html lang="es">
+    <head>
+        <title>AJAX PHP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+        <script src="ajaxphp.js"></script>
+    </head>
+    <body>
+        <h2>AJAX PHP</h2>
+        <p>
+            Se muestra cómo se comunica la página con el servidor con AJAX.
+        </p>
+        <hr>
+        <p>
+            <b>Escribe un nombre:</b>
+        </p>
+        <form>
+            <p>
+                Nombre:
+            </p>
+            <input type="text" onkeyup="mostrarPista(this.value)">
+        </form>
+        <p>
+            Sugerencias: <span id="txtPista"></span>
+        </p>
+    </body>
+</html>

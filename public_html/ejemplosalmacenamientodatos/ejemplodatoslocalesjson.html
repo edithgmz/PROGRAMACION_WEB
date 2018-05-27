@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Datos locales - JSON</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../js/datosjson.js"></script>
+        <style>
+            img{
+                width: 150px;
+                height: 150px;
+            }
+            table, tr, td{
+                border: 1px solid blue;
+            }
+            td{
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Datos locales - JSON</h2>
+        <hr>
+        <p>
+            Se usan datos de animales de granja en formato JSON. Se guardan como datos locales.
+            Los datos JSON se usan para:
+            Generar tabla con datos, búsqueda, agregar nuevo animal.
+        </p>
+        <br>
+        <div id="divAnimales">
+            Datos de animales
+        </div>
+        <br><br>
+        <button id="btnGuardar">
+            Guardar como datos locales
+        </button>
+        &nbsp;&nbsp;&nbsp;
+        <button id="btnTabla">
+            Mostrar animales en tabla
+        </button>
+        &nbsp;&nbsp;&nbsp;
+        <input type="text" id="valAnimal" size="20">
+        <button id="btnBuscarM">
+            Buscar (mío)
+        </button>
+        <br><br>
+        Buscar por nombre común:
+        &nbsp;&nbsp;
+        <input type="text" id="txtBuscar">
+        <button id="btnBuscar">
+            Buscar
+        </button>
+        <br><br>
+        <div id="divTabla">
+            Animales en tabla
+        </div>
+        <br><br>
+        <div id="divBusqueda">
+            Resultado de búsqueda
+        </div>
+        <br><br><br>
+        Agregar nuevo animal de granja
+        <br>
+        Nombre común:
+        <input type="text" id="txtNombreC">
+        <br>
+        Descripción:
+        <input type="text" id="txtDescrip">
+        <br><br>
+        <button id="btnAgregar">
+            Agregar
+        </button>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Página con CSS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/paginaconcss.css">
+    </head>
+    <body>
+        <!-- Contenedor de elementos -->
+        <div id="envoltura">
+            <!-- Cabecera de la página -->
+            <header id="cabecera">
+                <h1>Noticias al momento MX</h1>
+            </header>
+            <!-- Define la barra de navegación -->
+            <nav id="menu">
+                <ul>
+                    <li>Principal</li>
+                    <li>Internacional</li>
+                    <li>Nacional</li>
+                    <li>Deportes</li>
+                </ul>
+            </nav>
+            <section id="seccion"> <!-- Define el contenido principal de la página con una sección -->
+                <article> <!-- Se grega un artículo -->
+                    <header> <!-- El artículo tiene su propia cabecera -->
+                        <hgroup> <!-- Se agrupan los títulos -->
+                            <h2>Elecciones MX</h2>
+                            <h3>Candidato con mayor preferencia</h3>
+                        </hgroup>
+                        <time datetime="2018-02-07" pubdate>
+                            Publicado: 07-02-2018
+                        </time>
+                    </header>
+                    El candidato con mayor preferencia es XXXXX.XXXX
+                    <figure>
+                        <img src="imagenes/candidato_pls.jpg">
+                        <figcaption> <!-- Define un texto descriptivo para la imagen -->
+                            Foto del candidato
+                        </figcaption>
+                    </figure>
+                    <footer> <!-- Pie de artículo, también se usa para pies de página -->
+                        <p>Comentarios (0)</p>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <hgroup>
+                            <h2>Superbowl 2018</h2>
+                            <h3>Fue para las águilas</h3>
+                        </hgroup>
+                        <time datetime="2018-02-06" pubdate>
+                            Publicado: 06-02-2018
+                        </time>
+                    </header>
+                    Las águilas vuelan alto.
+                    <figure>
+                        <img src="imagenes/eagles_2018.jpg">
+                        <figcaption>
+                            Foto de las águilas
+                        </figcaption>
+                    </figure>
+                    <footer>
+                        <p>Comentarios (0)</p>
+                    </footer>
+                </article>
+            </section>
+            <aside id="lateral1"> <!-- Agrega información adicional -->
+                <blockquote>
+                    Cita sobre los candidatos
+                </blockquote>
+                <blockquote>
+                    Cita sobre el Superbowl
+                </blockquote>
+            </aside>
+            <footer id="pie"> <!-- Pie de página -->
+                Derechos reservados
+                &copy; 2015-2018
+            </footer>
+        </div>
+    </body>
+</html>

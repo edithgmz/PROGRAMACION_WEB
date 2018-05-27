@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Dibujar en canvas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../js/dibujarcanvas.js"></script>
+        <style>
+            canvas, table, tr, td{
+                border: 1px solid black;
+            }
+            td{
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Dibujar en canvas</h2>
+        <hr>
+        <p>
+            El usuario puede trazar figuras básicas en el "Canvas", él elige el tipo de figura (rectángulo, círculo,
+            triángulo, curva bézier cuadrática o curva bézier cúbica. También el color del trazo.
+        </p>
+        <canvas id="miCanvas" width="400" height="300"></canvas>
+        <br><br>
+        <table>
+            <tr>
+                <td>
+                    Elegir figura:
+                    <select id="selectFigura">
+                        <option value="rectangulo" selected>
+                            Rectángulo
+                        <option value="circulo">
+                            Círculo
+                        <option value="triangulo" >
+                            Triángulo
+                        </option>
+                        <option value="bezier2" >
+                            Bézier cuadrática
+                        </option>
+                        <option value="bezier3" >
+                            Bézier cúbica
+                        </option>
+                    </select>
+                </td>
+                <td>
+                    Elegir color:
+                    <input type="color" id="colorFigura">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button id="btnDibujar">
+                        Dibujar
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Ejemplo 1 vídeo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../js/ejemplo1video.js"></script>
+    </head>
+    <body>
+        <h2>Ejemplo 1 de vídeo</h2>
+        <hr>
+        <p>La etiqueta "video" permite incluir videos en un HTML, además se puede manipular mediante programación.</p>
+        <!-- controls = muestra controles para el vídeo -->
+        <video id="medio" width="320" height="176" controls loop onmouseover="this.play();" onmouseout="this.pause();">
+            <!-- Es útil tener el archivo en varios formatos para que el navegador pueda elegir el archivo que puede utilizar,
+            ignorando el resto de source cuando puede reproducir uno -->
+            <source src="../videos/mov_bbb.mp4">
+            <source src="../videos/mov_bbb.ogg">
+            <source src="../videos/mov_bbb.webm">
+        </video>
+        <br><br>
+        <button onclick="playPause();">
+            Play/Pause
+        </button>
+        <button onclick="hacerGrande();">
+            Grande
+        </button>
+        <button onclick="hacerNormal();">
+            Normal
+        </button>
+        <button onclick="hacerPequeno();">
+            Pequeño
+        </button>
+    </body>
+</html>

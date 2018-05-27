@@ -1,0 +1,207 @@
+/*
+Instituto Tecnológico de Chihuahua II
+Carrera: Ingeniería en Sistemas Computacionales
+Materia: Programación Web
+
+Aluma: Priscila Edith Gómez Rascón
+Número de Control: 15551384
+
+Hoja de estilos para la página: musica.html
+*/
+
+body{
+    background-color: #D8E4A7;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    padding: 10px;
+    margin: auto;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 1px 1px blue;
+    text-transform: uppercase;
+}
+
+h2, h3{
+    margin-bottom: 5px;
+    text-shadow: 1px 1px blue;
+}
+
+ol{
+    width: 368px;
+    max-width: 400px;
+    border-left-style: solid;
+    border-width: 10px;
+    border-color: #3064FF;
+    background-color: #D8DDEC;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    width: 200px;
+}
+
+ul li a {
+    font-weight: bold;
+    display: block;
+    width: 200px;
+    color: #000;
+    padding: 10px;
+}
+
+ul li a:hover {
+    width: 200px;
+    display: block;
+    font-weight: bold;
+    background-color: #555;
+    color: white;
+}
+
+img{
+    opacity: 0.95;
+}
+
+div{
+    height: auto;
+    width: auto;
+    background-color: rgb(35, 124, 186, 0.5);
+    position: relative;
+    overflow: visible;
+    width: 45%;
+    height: 100%;
+    margin: 10px;
+}
+
+div.linea{
+    outline-style: double;
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+
+div ~ p{
+    background-color: #B2DF6B;
+}
+
+p{
+    text-align: justify;
+}
+
+p::first-line {
+    color: #000000;
+    font-variant: small-caps;
+}
+
+a{
+    display: block;
+}
+
+a:link{
+    color: midnightblue;
+    text-decoration: none;
+}
+
+a:visited{
+    color: darkgreen;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkred;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active{
+    color: darkslateblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a[target] {
+    background-color: #97F6F3;
+}
+
+.album{
+    border: 8px solid #1D4267;
+}
+
+.activo{
+    background-color: #549ACC;
+    color: black;
+    width: 200px;
+    font-weight: bold;
+    display: block;
+    width: 200px;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 40px;
+}
+
+.cabecera {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.barra{
+    overflow: hidden;
+}
+
+#alumno{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+}
+
+#alumno td, #alumno th{
+    font-size: 17px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+#alumno tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#alumno tr:hover{
+    background-color: #ddd;
+}
+
+#alumno th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: black;
+}
+
+#aut{
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+#externo{
+    font-weight: bold;
+}
+
+#ext{
+    float: left;
+    background-image: url("curve.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    width: 240px;
+    border: 2px solid dodgerblue;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}

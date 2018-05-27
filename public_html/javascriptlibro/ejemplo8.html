@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Ejemplo 8</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            function hacerClic() {
+                var elemento = document.getElementsByTagName('p')[0];
+                elemento.addEventListener('click', mostrarAlerta, false);
+            }
+            
+            function mostrarAlerta() {
+                alert('¡Hizo clic!');
+            }
+
+            window.addEventListener('load', hacerClic, false);
+        </script>
+    </head>
+    <body>
+        <h3>Manejadores de eventos: Escuchador</h3>
+        <div id="principal">
+            <p>Hacer clic</p>
+            <p>No puede hacer clic</p>
+        </div>
+    </body>
+</html>

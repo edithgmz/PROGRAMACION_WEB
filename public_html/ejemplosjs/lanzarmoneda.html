@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Lanzar moneda</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../js/lanzarmoneda.js"></script>
+        <style>
+           td{
+                border: 1px solid;
+                padding: 10px;
+            }
+            img{
+                width: 184px;
+                height: 179px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Lanzar moneda</h2>
+        <hr>
+        <p>Se simula el lanzamiento de una moneda, se muestra el lado que cae, se cuentan los lanzamientos y se muestra una
+            "gráfica" con porcentajes.</p>
+        <table>
+            <tr>
+                <td>
+                    <button id="btnLanzar" onclick="lanzarMoneda();">
+                        Lanzar moneda
+                    </button>
+                </td>
+                <td>
+                    <img src="../imagenes/sello.png" id="moneda" alt="moneda México">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"> <!-- colspan = combinar celdas -->
+                    <h3>Estadísticas:</h3>
+                    <section id="seccSellos">
+                        Sellos: 0
+                    </section>
+                    <section id="seccAguilas">
+                        Águilas: 0
+                    </section>
+                    <section id="seccTotales">
+                        Total: 0
+                    </section>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Gráficas:</h3>
+                    Sellos:&nbsp;&nbsp;
+                    <input type="range" id="rangoSellos" value="0" min="0" max="100">
+                    <br>
+                    Águilas:
+                    <input type="range" id="rangoAguilas" value="0" min="0" max="100">
+                </td>
+                <td>
+                    <br><br><br>
+                    <div id="divSellos">
+                        0%
+                    </div>
+                    <br>
+                    <div id="divAguilas">
+                        0%
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

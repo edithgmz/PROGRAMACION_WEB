@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Ejemplo 1 audio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../js/ejemplo1audio.js"></script>
+    </head>
+    <body>
+        <h2>Ejemplo 1 de audio</h2>
+        <hr>
+        <p>También existe la etiqueta "audio" y se puede manipular con JS.</p>
+        <audio controls id="miaudio">
+            <source src="../audios/ew2_ow.mp3">
+            <source src="../audios/horse.ogg">
+            <source src="../audios/horse.mp3">
+            <source src="../audios/horse.wav">
+            <!-- Si el navegador no soporta la etiqueta desplegará el mensaje -->
+            Su navegador no soporta  "audio".
+        </audio>
+        <br><br>
+        <button onclick="subirVolumen();">
+            Subir volumen
+        </button>
+        <button onclick="bajarVolumen();">
+            Bajar volumen
+        </button>
+        <br><br>
+        <!-- La función a utilizar requiere del valor del objeto, de esta manera es una función genérica -->
+        <button value="0.5" onclick="velocidadCambiar(this.value);">
+            Velocidad 0.5
+        </button>
+        <button value="1.0" onclick="velocidadCambiar(this.value);">
+            Velocidad 1.0
+        </button>
+        <button value="2.0" onclick="velocidadCambiar(this.value);">
+            Velocidad 2.0
+        </button>
+    </body>
+</html>

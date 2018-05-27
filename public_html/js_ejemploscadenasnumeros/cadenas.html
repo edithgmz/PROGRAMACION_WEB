@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--
+Instituto Tecnológico de Chihuahua II
+Carrera: Ingeniería en Sistemas Computacionales
+Materia: Programación Web
+
+Aluma: Priscila Edith Gómez Rascón
+Número de Control: 15551384
+
+Página donde se muestran todas las cadenas creadas
+en el documento cadenas.js
+-->
+<html lang="es">
+    <head>
+        <title>JS Cadenas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="cadenas.js"></script>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <h2>JavaScript Cadenas</h2>
+        <hr>
+        <div>
+            <b>Las cadenas se escriben dentro de comillas:</b>
+            <br>
+            <p id="pSimple">
+                <b>Pueden ser simples:</b>
+            </p>
+            <p id="pDoble">
+                <b>O dobles:</b>
+            </p>
+        </div>
+        <br>
+        <div>
+            <b>Se pueden usar comillas dentro de una cadena, siempre que no sean iguales
+                que las comillas que rodean la cadena:</b>
+            <p id="pComi">...</p>
+        </div>
+        <br>
+        <div>
+            <b>Si se coloca una diagonal inversa antes de las comillas se aceptan como comillas:</b>
+            <p id="pBaSla">...</p>
+        </div>
+        <br>
+        <div>
+            <b>Se puede interrumpir una línea de código dentro de una cadena de texto con una diagonal inversa:</b>
+            <p id="pIntI">...</p>
+        </div>
+        <br>
+        <div>
+            <b>No se puede interrumpir una línea de código con una diagonal inversa:</b>
+            <p id="pIntII">...</p>
+        </div>
+        <br>
+        <h3>JavaScript Propiedades de las Cadenas</h3>
+        <div>
+            <b>La propiedad length retorna el tamaño de una cadena:</b>
+            <br>
+            <p id="pTam">
+                ...
+            </p>
+        </div>
+        <br>
+        <h3>JavaScript Métodos de las Cadenas</h3>
+        <div>
+            <b>El método indexOf() retorna la posición de la primera aparición de un texto especificado:</b>
+            <p id="pIndex">...</p>
+        </div>
+        <br>
+        <div>
+            <b>Clic en el botón para realizar una búsqueda global (/g) de las letras (/al) en el párrafo y
+                mostrar las coincidencias:</b>
+            <p id="pCad">...</p>
+            <button id="btnBusq">
+                Haz clic
+            </button>
+            <p id="pBus">...</p>
+        </div>
+        <br>
+        <div>
+            <b>Reemplazar la palabra "disidentes" por "detractores" en el párrafo:</b>
+            <br><br>
+            <button id="btnCambia">
+                Haz clic
+            </button>
+            <p id="pCambio">
+                En dicho mundo, cuando una persona quiere tener un hijo debe administrarse una inyección de vejez para morir y
+                dejar lugar a su sucesor. Naturalmente, hay quien intenta tener hijos de manera clandestina y conservar la
+                inmortalidad. La Falange es la organización policial encargada de perseguir a estos <b>disidentes</b>.
+            </p>
+        </div>
+        <br>
+        <div>
+            <b>Convertir cadena a mayúsculas:</b>
+            <br><br>
+            <button id="btnMayus">
+                Haz clic
+            </button>
+            <p id="pMayu">
+                Futu.re
+            </p>
+        </div>
+        <br>
+        <div>
+            <b>Convertir cadena a minúsculas:</b>
+            <br><br>
+            <button id="btnMinus">
+                Haz clic
+            </button>
+            <p id="pMinu">
+                De Dmitry Glukhovsky
+            </p>
+        </div>
+        <br>
+        <div>
+            <b>Mostrar el primer elemento de la matriz, después de una secuencia de cadenas:</b>
+            <p id="pAlf">...</p>
+            <button id="btnArr">
+                Haz clic
+            </button>
+            <p id="pArr">...</p>
+        </div>
+    </body>
+</html>

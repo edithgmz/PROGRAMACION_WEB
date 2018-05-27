@@ -1,0 +1,71 @@
+/*
+Instituto Tecnológico de Chihuahua II
+Carrera: Ingeniería en Sistemas Computacionales
+Materia: Programación Web
+
+Aluma: Priscila Edith Gómez Rascón
+Número de Control: 15551384
+
+Hoja de estilos para la página: libros.html
+*/
+
+body{
+    background-color: floralwhite;
+    font-family: tahoma;
+    padding: 30px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+a:link{
+    color: midnightblue;
+    text-decoration: none;
+}
+
+a:visited{
+    color: darkgreen;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkred;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active{
+    color: darkslateblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#alumna{
+    font-size: 15px;
+}
+
+.portada{
+    border: 5px solid darkslategray;
+}
+
+.portada1{
+    border: 5px solid darkslateblue;
+}
+
+.tabla{
+    border: 0px;
+}

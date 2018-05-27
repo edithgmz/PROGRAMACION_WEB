@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+Página inicio de Programación Web
+Priscila Edith Gómez Rascón
+-->
+<!--Siempre se debe indicar el lenguaje -->
+<html lang="es"> <!-- No hay diferencia entre usar comillas simples o dobles -->
+    <head>
+        <!-- Información básica de una página, dependiendo del contexto en el que se esté trabajando -->
+        <title>Página inicio</title>
+        <!--Distribución recomendable -->
+        <meta charset="UTF-8">
+        <!-- Comportamiento responsivo -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Palabras clave de la página -->
+        <meta name="keywords" content="programacion web, html5, css, JavaScript">
+        <!-- Descripción de la página -->
+        <meta name="description" content="Ejemplos del curso Programación Web">
+        <!-- Autor -->
+        <meta name="author" content="Edith Gómez">
+    </head>
+    <body>
+        <h2>Programación Web</h2> <!-- Encabezado tipo 2 -->
+        <hr> <!-- Regla horizontal, no tiene cierre porque no tiene contenido, se le puede dar formato -->
+        <p>En este curso se estudian los lenguajes de base de la Web, como: HTML, CSS, JavaScript y algún lenguaje del
+            lado del servidor</p> <!-- Párrafo -->
+        Temario.
+        <!--
+        <ul>  Lista no ordenada 
+            <li>Introducción</li>  Elemento de lista
+            <li>Lenguajes de etiquetas</li>
+            <li>Lenguajes del lado del cliente</li>
+            <li>Lenguajes del lado del servidor</li>
+            <li>Nube</li>
+        </ul>
+        -->
+        <ol type="a"> <!-- Lista ordenada, para usar numeración diferente se utiliza el atributo type -->
+            <li>
+                <a href="introduccion/introduccion.html"> <!-- Crear un enlace, las rutas siempre deben ser relativas  -->
+                    Introducción
+                </a>
+            </li> <!-- Elemento de lista -->
+            <li>
+                <a href="lenguajesetiquetas/lenguajesetiquetas.html">
+                    Lenguajes de etiquetas
+                </a>
+            </li>
+            <li>
+                <a href="lenguajescliente/lenguajescliente.html">
+                    Lenguajes del lado del cliente
+                </a>
+            </li>
+            <li>
+                <a href="lenguajesservidor/lenguajesservidor.html">
+                    Lenguajes del lado del servidor
+                </a>
+            </li>
+            <li>
+                <a href="nube/nube.html">
+                    Nube
+                </a>
+            </li>
+        </ol>
+    </body>
+</html>

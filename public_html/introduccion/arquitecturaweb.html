@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Arquitectura Web</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Estilo: de bloque, se debe colocar en la cabecera con su respectiva etiqueta. A nivel de página -->
+        <style>
+            p{
+                color: darkgreen;
+                font-size: 14px;
+                font-family: sans-serif,arial;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Para modificar el estilo de un elemento se utiliza style, las propiedades se separan con punto y coma
+        Estilo: de línea (ya que se encuentra en la misma etiqueta), no es muy recomendado-->
+        <h2 style="color: darkslategray; background-color: cadetblue">Arquitectura Web</h2>
+        <hr>
+        <p>Para el desarrollo eficiente de aplicaciones Web es necesario conocer la arquitectura,
+            sus elementos y relaciones.</p>
+        <br>
+        <p>En la Web se tienen dos elementos básicos: cliente y servidor</p>
+        <br><br>
+        <a name="temas">
+            Temas.
+        </a>
+        <ol>
+            <li>
+                <a href="#arquitecturabasica"> <!-- Para hacer un enlace en el mismo documento se usa # -->
+                    Arquitectura básica
+                </a>
+            </li>
+            <li>
+                <a href="#detrescapas">
+                    De tres capas
+                </a>
+            </li>
+            <li>
+                <a href="#pagestaticas">
+                    Páginas estáticas
+                </a>
+            </li>
+            <li>
+                <a href="#pagdinamicas">
+                    Páginas dinámicas
+                </a>
+            </li>
+        </ol>
+        <br><br>
+        <h3>
+            <a name="arquitecturabasica"> <!-- Marcador para referenciar al objeto -->
+                Arquitectura básica
+            </a>
+        </h3>
+        En la ingeniería de software se denomina aplicación web a aquellas herramientas que los usuarios pueden utilizar
+        accediendo a un servidor web a través de internet o de una intranet mediante un navegador. En otras palabras, es
+        un programa que se codifica en un lenguaje interpretable por los navegadores web en la que se confía la ejecución
+        al navegador.
+        
+        Las aplicaciones web son populares debido a lo práctico del navegador web como cliente ligero, a la independencia
+        del sistema operativo, así como a la facilidad para actualizar y mantener aplicaciones web sin distribuir e instalar
+        software a miles de usuarios potenciales. Existen aplicaciones como los correos web, wikis, blogs, tiendas en línea y
+        la propia Wikipedia que son ejemplos bastante conocidos de aplicaciones web.
+        <br><br>
+        <a href="#temas">
+            Volver al inicio.
+        </a>
+        <br><br><br>
+        <h3>
+            <a name="detrescapas">
+                De tres capas
+            </a>
+        </h3>
+        La programación por capas es un modelo de desarrollo software en el que el objetivo primordial es la separación
+        (desacomplamiento) de las partes que componen un sistema software o también una arquitectura cliente-servidor:
+        lógica de negocios, capa de presentación y capa de datos. De esta forma, por ejemplo, es sencillo y mantenible
+        crear diferentes interfaces sobre un mismo sistema sin requerirse cambio alguno en la capa de datos o lógica.
+        
+        La ventaja principal de este estilo es que el desarrollo se puede llevar a cabo en varios niveles y, en caso de que
+        sobrevenga algún cambio, solo afectará al nivel requerido sin tener que revisar entre el código fuente de otros
+        módulos, dado que se habrá reducido el Acoplamiento informático hasta una interfaz de paso de mensajes.
+        <br><br>
+        <a href="#temas">
+            Volver al inicio.
+        </a>
+        <br><br><br>
+        <h3>
+            <a name="pagestaticas">
+                Páginas estáticas
+            </a>
+        </h3>
+        Una página web estática es un sitio de Internet que muestra el mismo contenido para todos los usuarios, en vez de
+        proporcionar contenido personalizado a la medida de cada usuario, y que no se actualiza a menudo. Las páginas
+        web estáticas, algunas veces se conocen como páginas planas.
+        <br><br>
+        <a href="#temas">
+            Volver al inicio.
+        </a>
+        <br><br><br>
+        <h3>
+            <a name="pagdinamicas">
+                Páginas dinámicas
+            </a>
+        </h3>
+        Las paginas web dinámicas son aquellas en las que la información presentada se genera a partir de una petición del
+        usuario de la página. Esto se hace posible porque una página dinámica tiene asociada una Base de Datos desde la
+        que permite visualizar la información contenida en ella.
+        
+        Otra de las ventajas de éste tipo de páginas es que permite almacenar y hacer actualizaciones de la información
+        contenida en la misma, así como también modificaciones dinámicas de la estructura y del diseño por parte de su
+        propietario.
+        <br><br>
+        <a href="#temas">
+            Volver al inicio.
+        </a>
+        <br><br><br>
+    </body>
+</html>

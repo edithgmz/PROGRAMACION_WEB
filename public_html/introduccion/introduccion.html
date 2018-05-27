@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Introducción</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Se vincula una hoja de estilos a la página -->
+        <link rel="stylesheet" href="../css/introduccion.css">
+    </head>
+    <body>
+        <h2>Introducción</h2>
+        <hr>
+        <!-- Se utiliza el atributo class para distinguir entre párrafos y poder agregar estilos independientes -->
+        <p class="parrafo_a">Se estudia la historia de la Web, su evolución, las versiones Web 1.0, Web 2.0, Web 3.0, Web
+            4.0. También los lenguajes, protocolos y tecnologías.</p>
+        <p class="parrafo_a">En la historia se conocen a los creadores de la Web.</p>
+        <p class="parrafo_b">Un investigador en Suiza fue el padre de la Web.</p>
+        <p class="parrafo_b">Su nombre es Tim y aún vive.</p>
+        <p id="parrafo_5">Tim ha promovido la Web semántica.</p>
+        <br><br> <!-- Salto de línea -->
+        <h3>Evolución de la Web</h3>
+        <table border="1"> <!-- Tabla, las propiedades se añaden aquí -->
+            <tr> <!-- Renglón de tabla -->
+                <th>Versión</th> <!-- Encabezado de tabla -->
+                <th>Descripción</th>
+                <th>Imagen</th>
+            </tr>
+            <tr>
+                <td>Web 1.0</td> <!-- Columna de tabla -->
+                <td>Es la Web inicial. Un contenido estático.</td>
+                <td>
+                    <!-- Se agrega vínculo a un artículo en la imagen; en este caso es una ruta absoluta,
+                    para que el enlace se abra en una nueva pestaña se usa target="_blank" -->
+                    <a href="https://es.wikipedia.org/wiki/Web_1.0" target="_blank">
+                        <!-- Imagen, src para ubicarla, alt para mostrar un texto en caso de que la imagen no cargue
+                        width para indicar el ancho dela imagen, height para el alto de la imagen -->
+                        <img src="../imagenes/web1_0.png" alt="Web 1" width="200" height="200">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>Web 2.0</td>
+                <td>Es la Web social. Un contenido dinámico generado por los usuarios.</td>
+                <td>
+                    <img src="../imagenes/web2_0.png" alt="Web 2" width="200" height="200">
+                </td>
+            </tr>
+            <tr>
+                <td>Web 3.0</td>
+                <td>Es la Web semántica.</td>
+                <td>
+                    <img src="../imagenes/web3_0.png" alt="Web 3" width="200" height="200">
+                </td>
+            </tr>
+            <tr>
+                <td>Web 4.0</td>
+                <td>Es la Web inteligente.</td>
+                <td>
+                    <img src="../imagenes/web4_0.jpg" alt="Web 4" width="200" height="200">
+                </td>
+            </tr>
+        </table>
+        <br><br>
+        <a href="../index.html"> <!-- Para subir un nível se tiene que poner ../ las veces que sean necesarias -->
+            Ir a página de inicio
+        </a>
+    </body>
+</html>
