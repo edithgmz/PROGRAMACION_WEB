@@ -1,0 +1,29 @@
+/* Estilo aplicado a todas las páginas que no tienen uno propio */
+
+*{
+    background-color: #feffff;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+h2, h3{
+    text-align: center;
+    margin: 1px;
+}
+
+p{
+    margin: 4px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, td, th{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th{
+    text-align: left;
+}
